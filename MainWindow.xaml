@@ -1,0 +1,21 @@
+﻿<Window x:Class="War.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:War"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="AliceBlue">
+        <TextBox Name="Playerone" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="70" Margin="106,0,0,0" TextChanged="test_TextChanged"/>
+        <Button Content="Draw" Name="butt" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="86" Margin="10,28,0,0" Click="Button_Click"/>
+        <TextBox x:Name="CPU"   HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="70" Margin="298,1,0,0" TextChanged="test_Copy_TextChanged"/>
+        <Label  Name="ko" HorizontalAlignment="Left" Margin="0,67,0,0" VerticalAlignment="Top"/>
+        <Label  Name="ra" HorizontalAlignment="Left" Margin="0,89,0,0" VerticalAlignment="Top"/>
+        <Label  Name="p1" Content="Player One Card:" HorizontalAlignment="Left" Margin="8,-2,0,0" VerticalAlignment="Top"/>
+        <Label  Name="p2" HorizontalAlignment="Left" Content="CPU Card:" Margin="236,0,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="idwar"   HorizontalAlignment="Left" Margin="207,64,0,0" TextWrapping="Wrap"  Text="" VerticalAlignment="Top" Height="64"/>
+
+
+    </Grid>
+</Window>
